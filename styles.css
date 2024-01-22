@@ -66,3 +66,7 @@ p {
         text-align: center;
     }
 }
+.nav-item:hover {
+    background-color: var(--primary-color);
+    color:white;
+}
