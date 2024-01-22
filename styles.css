@@ -65,6 +65,9 @@ p {
     .project-description {
         text-align: center;
     }
+    h1 {
+        font-size: 60px;
+    }
 }
 .nav-item:hover {
     background-color: var(--primary-color);
