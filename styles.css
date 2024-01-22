@@ -29,6 +29,10 @@ p {
     font-size: 40px;
 
 }
+.div-p {
+    color:black;
+    font-size: 20px;
+}
 .btn {
     background-color: var(--btn-color);
     color: white;
@@ -48,4 +52,17 @@ p {
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px 
+}
+.btn-branding {
+    color: white;
+    border: 1px solid var(--btn-color);
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
+@media (max-width: 900px) {
+    .project-description {
+        text-align: center;
+    }
 }
