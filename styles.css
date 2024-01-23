@@ -132,3 +132,8 @@ overflow: clip;
 .content h3 {
     font-size: 33px;;
 }
+.content h3 {
+    font-size: 24px;
+    line-height: 1.5;
+    font-family: var(--secondary-font);
+}
