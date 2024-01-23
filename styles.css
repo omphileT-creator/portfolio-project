@@ -71,6 +71,10 @@ p {
     .about-section {
         text-align: center;
     }
+    .content {
+        text-align: center;
+        padding: 0;
+    }
 }
 .nav-item:hover {
     background-color: var(--primary-color);
@@ -108,4 +112,23 @@ div {
 img {
 overflow-clip-margin: content-box;
 overflow: clip;
+}
+.content-container {
+    padding: 160px 20px;
+
+}
+.content {
+    margin: 30px;
+}
+.content h1 {
+    font-size: 64px;
+    line-height: 80px;
+    color: var(--btn-color)
+}
+.content p {
+    font-size:20px;
+
+}
+.content h3 {
+    font-size: 33px;;
 }
