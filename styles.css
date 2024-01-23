@@ -137,3 +137,7 @@ overflow: clip;
     line-height: 1.5;
     font-family: var(--secondary-font);
 }
+.nav-item {
+    display: inline;
+    justify-content: flex-end;
+}
